@@ -61,7 +61,7 @@ useEffect(() => {
     <div className="chatbot">
       <div className="chatbot-header">
         <img className='chatbotImg' src={robotHead} alt="robot head" />
-        <p>ChatBot</p>
+        <p>How can i help you today?</p>
       </div>
       <div className="chatbot-body">
         <form onSubmit={(e)=>handleSubmit(e)}>
