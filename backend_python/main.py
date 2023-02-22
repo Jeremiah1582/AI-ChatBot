@@ -16,7 +16,7 @@ def chatbot():
         print('test request',request)
         data = request.get_json()
         # prompt=(writeCoverLetterPrompt+data)
-        whoAmI= "You are a friendly customer service chatbot. answer this question: "
+        whoAmI= "You are Abi, a friendly customer service chatbot. answer this question: "
         prompt= whoAmI+data
         openai.api_key = API_KEY
         response = openai.Completion.create(
